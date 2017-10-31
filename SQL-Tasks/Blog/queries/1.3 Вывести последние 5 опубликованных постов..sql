@@ -1,1 +1,1 @@
-SELECT * FROM (SELECT * FROM blog.posts ORDER BY idposts DESC LIMIT 5) AS T ORDER BY idposts desc;
+SELECT * FROM  posts ORDER BY idposts desc limit 5;
