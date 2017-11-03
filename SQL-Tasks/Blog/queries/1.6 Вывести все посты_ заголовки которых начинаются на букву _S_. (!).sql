@@ -1,0 +1,1 @@
+SELECT * FROM blog_db.posts WHERE title LIKE 'S%';
