@@ -1,2 +1,2 @@
-SELECT COUNT(idposts)
+SELECT COUNT(postid)
 FROM posts;

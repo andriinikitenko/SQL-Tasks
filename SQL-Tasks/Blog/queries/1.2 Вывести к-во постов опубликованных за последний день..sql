@@ -1,1 +1,1 @@
-SELECT * FROM blog.posts WHERE data = (CURDATE());
+SELECT * FROM blog_db.posts WHERE data = (CURDATE());

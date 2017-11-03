@@ -1,1 +1,1 @@
-SELECT * FROM  posts ORDER BY idposts desc limit 5;
+SELECT * FROM  posts ORDER BY postid desc limit 5;

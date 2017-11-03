@@ -1,5 +1,6 @@
-select autors.idautors, name, count(tags_idtags) from autors
-inner join posts on autors.idautors = posts.autors_idautors
-inner join conection on posts.idposts = conection.posts_idposts
-group by autors.idautors
-order by count(tags_idtags) desc limit 5;
+
+select authors.authorid, name, title, count(tags_tagid) from authors
+inner join posts on authors.authorid = posts.authors_authorid
+inner join posts_tags_map on posts.postid = posts_tags_map.posts_postid
+group by authors.authorid
+order by count(tags_tagid) desc limit 5;
